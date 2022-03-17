@@ -1,0 +1,46 @@
+#banner {
+	color:white;
+	height:90vh;
+	background-image:linear-gradient(110deg, rgba(196,196,196,0.402258) 7%, rgba(62,62,62,0.6671043417366946) 27%),url("../images/banniere.jpg");
+	background-size:cover;
+	background-position:center;
+	align-items:right;
+
+}
+
+
+.banner-titre {
+	text-shadow:2px 2px 4px #b3b3c9e3;
+	text-align:center;
+	font-size:xx-large;
+	font-size:calc(1.375rem + 1.5vw);
+}
+
+.btn-white {
+	color:black ;
+	text-align: center;
+	justify-content: right;
+	background-color:#DADCDB;
+	box-shadow: 2px 2px 4px #b3b3c9e3;
+	padding:8px 16px;
+	border-radius:6px;
+	font-weight:bold;
+	font-size:100%;
+	display:block;
+	width:40%;
+	margin:0 auto;
+	border:1px solid white;
+	transition:1s;
+	width:30%;
+}
+
+
+/*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
+.btn-white:hover {
+	background-color:pink;
+	color:white;
+	transition:1s;
+}
+/*la bannière prend 70% de la bannière
+"../image" -> remonter d'un cran (donc remonter de la fiche style.css au dossier image"*/
+
