@@ -52,6 +52,7 @@
 
 .list-menu-gauche li:hover {
 	font-size:larger;
+	color:white;
 	transition: 1s;
 }
 
